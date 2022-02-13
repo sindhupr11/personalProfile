@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Lato:wght@100;300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* colours 
+bg color-#0E0220
+containers-#E40475
+text-#D7FBF6
+boldtext-#48E0E4
+font-lato*/
+
+body{
+    background-color: #0E0220;
+    color: #F2EEE0;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.header{
+    margin: 2rem;
+    padding: 2rem;    
+}
+
+.header h1{
+    font-size: 3rem;
+    text-align: right;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header h3{
+    font-size: 1.5rem;
+    text-align: right;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.subnav{
+    text-decoration: none;
+    background-color: #9dd1bb;
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 70%;
+}
+
+.subnav_links{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+}
+    
+.subnav_links:hover{
+    color: #53615c;
+    font-size: large;
+    transition: all 0.5s ease-in-out;
+}
+
+#home{
+    width: 90%;
+    margin: 3rem auto;
+    padding: 3rem;
+    color: #F2EEE0;
+    background-color: #150330;
+    border-style: double;
+    border-color: #29085c;
+}
+
+#home{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.home_greeting2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #9dd1bb;    
+}
+
+#para{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#aboutme{
+    font-family: 'Lato', sans-serif;
+}
+
+#aboutme h1{
+    font-size: 3rem;
+    padding: 5%;
+    text-align: center;
+    color: #9dd1bb;
+}
+
+span{
+    color: #9dd1bb;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.aboutme_item{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+#education h1{
+    font-size: 3rem;
+    padding: 5%;
+    text-align: center;
+    color: #9dd1bb;
+    font-family: 'Lato', sans-serif;    
+}
+
+.education_container{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.education_item{
+    padding: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.education_itemline{
+    color: #9dd1bb;
+}
+
+.education_iteminst{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+    color: #9dd1bb;
+}
+
+.education_iteminstplace{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.education_itemclass{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.education_itemcourse{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.education_itemyear{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#achievements{
+    width: 80%;
+    margin: auto auto;
+}
+
+#achievements h1{
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 5%;
+    color: #9dd1bb;
+}
+
+.achievements_img{
+    align-items: center;
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+#skills h1{
+    font-size: 3rem;
+    padding: 5%;
+    text-align: center;
+    color: #9dd1bb;
+    font-family: 'Lato', sans-serif;
+}
+
+#skills h3{
+    font-size: 2rem;
+    color: #9dd1bb;
+}
+
+#skills{
+    font-family: 'Lato', sans-serif;
+}
+
+.skills_container{
+    margin: 3rem 3rem;
+}
+
+.skills_item{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#contact h1{
+    font-size: 3rem;
+    padding: 5%;
+    text-align: center;
+    color: #9dd1bb;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact_item{
+    font-size: 2rem;
+    padding: 1%;
+}
+
